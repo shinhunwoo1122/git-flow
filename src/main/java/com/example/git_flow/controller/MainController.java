@@ -14,9 +14,10 @@ public class MainController {
     public String test2(){
         return "test2";
     }
+  
     @GetMapping("/test3")
     public String test3(){
-        return "test3";
+        return "test22";
     }
     @GetMapping("/test4")
     public String test4(){
