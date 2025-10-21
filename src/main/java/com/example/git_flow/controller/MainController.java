@@ -7,32 +7,63 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     @GetMapping("/test")
-    public String test(){
+    public String test() {
         return "test1";
     }
+
     @GetMapping("/test2")
-    public String test2(){
+    public String test2() {
         return "test2";
     }
-  
+
     @GetMapping("/test3")
-    public String test3(){
+    public String test3() {
         return "test22";
     }
+
     @GetMapping("/test4")
-    public String test4(){
+    public String test4() {
         return "test4";
     }
+
     @GetMapping("/test6")
-    public String test6(){
+    public String test6() {
         return "test6";
     }
+
+    @GetMapping("/test7")
+    public String test7() {
+        return "test7";
+    }
+
     @GetMapping("/test777")
-    public String test77(){
+    public String test77() {
+
         return "test777";
     }
+
     @GetMapping("/test8")
-    public String test8(){
+    public String test8() {
+
         return "test8";
     }
+
+    @GetMapping("/test77")
+    public String test777() {
+
+        return "test77";
+    }
+
+    @GetMapping("/test88")
+    public String test88() {
+
+
+
+        
+        return "test8";
+    }
+
+
+
+
 }
