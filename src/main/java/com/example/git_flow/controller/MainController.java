@@ -23,8 +23,8 @@ public class MainController {
     public String test4(){
         return "test4";
     }
-    @GetMapping("/test5")
-    public String test5(){
-        return "test5";
+    @GetMapping("/test6")
+    public String test6(){
+        return "test6";
     }
 }
