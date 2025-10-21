@@ -19,4 +19,12 @@ public class MainController {
     public String test3(){
         return "test22";
     }
+    @GetMapping("/test4")
+    public String test4(){
+        return "test4";
+    }
+    @GetMapping("/test6")
+    public String test6(){
+        return "test6";
+    }
 }
