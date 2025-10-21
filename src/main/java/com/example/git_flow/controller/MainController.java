@@ -27,9 +27,9 @@ public class MainController {
     public String test6(){
         return "test6";
     }
-    @GetMapping("/test77")
+    @GetMapping("/test777")
     public String test77(){
-        return "test77";
+        return "test777";
     }
     @GetMapping("/test8")
     public String test8(){
